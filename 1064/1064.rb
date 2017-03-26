@@ -8,4 +8,4 @@ positive = 0
 end
 
 puts "#{positive} valores positivos"
-puts spritf('%.1f', sum/positive)
+puts sprintf('%.1f', sum/positive)
