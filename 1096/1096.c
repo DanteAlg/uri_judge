@@ -3,11 +3,11 @@
 int main() {
   int i = 1, j = 7, cont = 0;
 
-  while (i != 10) {
+  while (i < 10) {
     printf("I=%i J=%i\n", i, j);
 
     if (cont == 2) {
-      i++;
+      i += 2;
       j = 7;
       cont = 0;
     }
